@@ -4,9 +4,19 @@ This project utilizes [Next.js](https://nextjs.org) for the frontend implementat
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+# first 
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+# then
 npm run dev
 # or
 yarn dev
