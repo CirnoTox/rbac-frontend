@@ -1,10 +1,12 @@
-import Main from "./layout/mainContent";
-import SideNav from "./layout/sideNav";
+import Login from "./components/login";
+import Main from "./components/mainContent";
+import SideNav from "./components/sideNav";
+import "./globals.css";
 export default function Home() {
   return (
-    <div className="">
-      <Main/>
+    <div className=" h-full w-full">
       <SideNav/>
+      <Main/>
       
     </div>
   );
